@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    background-color: #cb4f0f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 42px;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.logo-text p {
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+
+}
+
+.logo-text p:first-child {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.logo-text p:nth-child(2) {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.logo-text p:last-child {
+    font-size: 38px;
+}
+
+
+
+.navigation li {
+    list-style: none;
+
+}
+
+.navigation a {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+.header-section {
+    background-color: #5e91fe;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    align-items: center;
+    padding: 200px 0 250px;
+
+
+}
+
+.header-picture {
+    width: 35%;
+}
+
+
+.header-text h1 {
+    font-size: 44px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    margin-bottom: 100px;
+}
+
+
+.header-text p {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+.header-text {
+    text-align: center;
+    max-width: 45%;
+}
+
+
+figure p {
+    font-size: 34px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+
+.figure-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.figure-body img {
+    width: 35%;
+}
+
+
+figure h2 {
+    text-align: center;
+    font-size: 44px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    margin-bottom: 20px;
+
+}
+
+.figure-price {
+    opacity: 0.902;
+    font-size: 54px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+
+
+.button {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    background-color: #cb4f0f;
+    padding: 25px 60px;
+    display: inline-block;
+}
+
+.figure-text p {
+    margin-bottom: 40px;
+}
+
+.game_sup h2 {
+    margin-bottom: 120px;
+
+}
+
+.game_sup {
+    padding: 100px 0;
+}
+
+
+.game_banner p {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-align: center;
+    width: 60%;
+
+}
+
+.game_banner {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(img/games_banner.png);
+    height: 1180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mario-section .blue {
+    background-color: #0000ff;
+    height: 73%;
+}
+
+.mario-section .yellow {
+    background-color: #fff600;
+    height: 27%;
+}
+
+.mario-section {
+    height: 1000px;
+    position: relative;
+}
+
+.mario {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    width: 40%;
+}
+
+
+.day {
+    position: absolute;
+    top: 210px;
+    left: 65px;
+    width: 40%;
+}
+
+.turnir {
+    position: absolute;
+    top: 50%;
+    left: 65px;
+    width: 40%;
+}
+
+.fond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 90px 0px;
+}
+
+
+.Mario-Box {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.fond h2 {
+    font-size: 44px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+
+.price-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.price-container .price {
+    font-size: 80px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+.price-container img {
+    height: 150px;
+}
+
+
+.fond-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.fond-text p {
+    font-size: 32px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.fond-text a {
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-align: center;
+    background-color: #000000;
+    padding: 35px 80px;
+    text-decoration: none;
+    font-size: 18px;
+display: inline-block;
+width: fit-content;
+}
+
+.hr {
+    background-image: url(img/block.png);
+    width: 100%;
+    height: 90px;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+
+body {
+    cursor: url(cursor.cur), auto;
+}
+
+
+.questions {
+    background-color: #000000;
+    padding: 50px;
+
+}
+
+.questions h2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.form-body p {
+    background-color: #fff;
+    color: #121212;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+
+.form-body a {
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    color: #000000;
+    background-color: #cb4f0f;
+    padding: 23px 75px;
+    border-top: #512006 solid 1px;
+    border-bottom: #ab430d solid 1px;
+    display: inline-block;
+    width: fit-content;
+    font-size: 32px;
+}
+
+.form-body {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.form img {
+    width: 30%;
+height: fit-content;
+}
+
+
+.form-text {
+    height: 200px;
+}
+
+
+.all-games {
+    padding: 50px 20px;
+    background-color: #cb4f0f;
+ 
+    
+}
+.all-games h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    margin-bottom: 50px;
+}
+
+.all-games .games {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.games li{
+list-style: none;
+font-family: roboto;
+font-weight: 400;
+font-size: 18px;
+}
+
+.read-more{
+    text-decoration: none;
+    color: #000000;
+    font-size: 27px;
+    font-family: "Press Start 2P";
+    display: block;
+    text-align: right;
+    padding: 0 250px;
+}
+
+.footer-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    background-color: #000000;
+}
+
+.contacs a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Press Start 2P';
+}
+
+.bio {
+    display: flex;
+    gap: 25px;
+}
